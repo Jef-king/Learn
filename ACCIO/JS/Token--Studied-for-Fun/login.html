@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form>
+        <input type="email" name="email" id="email" placeholder="email"  value="abhi@gmail.com"/>
+        <input type="password" name="password" id="password" placeholder="Password" value="123456" />
+        <button type="submit">Login</button>
+    </form>
+
+    <script>
+        const users = [
+            {
+                email: 'abhi@gmail.com',
+                password: '123456'
+            },
+            {
+                email: 'piyush@gmail.com',
+                password: '123456'
+            },
+            {
+                email: 'saurabh@gmail.com',
+                password: '123456'
+            },
+            {
+                email: 'sachin@gmail.com',
+                password: '123456'
+            }
+        ]
+
+        let form = document.querySelector('form'); 
+        let email_box = document.querySelector('#email');
+        let password_box = document.querySelector('#password');
+
+        form.addEventListener("submit", validate)
+
+        function validate(eventDetails){
+             eventDetails.preventDefault();
+            let email = email_box.value;
+            let password = password_box.value;
+
+           // check if this email is associated with us or not
+           // saurabh@gmail.com
+           let flag = false
+           for(let t of users){
+              if(t.email == email){
+                //  alert("Email is present")
+                if(t.password == password){
+
+                   // add current user email to local storage 
+
+                //     localStorage.setItem("currentUser", JSON.stringify(email))
+
+                     let token = generateToken() 
+                     t.token = token
+                    //  console.log(t)
+                    localStorage.setItem("currentUserToken", JSON.stringify(token))
+                    localStorage.setItem("users", JSON.stringify(users)) // 
+
+
+
+                    alert("Login Success")
+                    // navigate to secret.html
+
+                    window.location.href = "secret.html"
+                }
+                else{
+                    alert("Password is incorrect")
+                }
+                 flag = true
+              }
+           }
+          if(flag == false){ alert("User not Found")}
+
+        }
+
+
+        function generateToken(){
+            let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890$#!@";
+             
+            let token = ""
+            for(let i = 1; i<=10; i++){
+                let randomIndex = parseInt(Math.random() * values.length)
+                let randomValue = values[randomIndex]
+                token = token + randomValue
+            }
+            return token
+        }
+    </script>
+</body>
+</html>
