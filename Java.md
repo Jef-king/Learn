@@ -1,12 +1,12 @@
 # Java
 
-## What is Java?
+### What is Java?
 
 Java is a programming language, created in 1995.
 
 It is owned by Oracle, and more than 3 billion devices run Java.
 
-#### It is used for:
+### It is used for:
 * Mobile applications(specially Android apps)
 * Desktop applications
 * Web applications
@@ -15,7 +15,7 @@ It is owned by Oracle, and more than 3 billion devices run Java.
 * Database connection
 * And much, much more!
 
-## Why use Java?
+### Why use Java?
 
 * Java works on different platforms(Windows, Mac, Linux, Rasberry Pi, etc.)
 * It is one of the most popular programming languages in the World
@@ -27,7 +27,7 @@ It is owned by Oracle, and more than 3 billion devices run Java.
 * Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development EnumConstantNotPresentException
 * As Java is close to C++ and C#, it makes it easy for programmers to switch to Java and vice versa
 
-## Java Install
+### Java Install
 
 Some PCs might have Java already installed.
 
@@ -46,7 +46,7 @@ If you do not have Java installed on your computer, you can download it for free
 Note: In this tutorial we will write Java code in a text editor. However, it is possible to write Java in an Integrated Development Environment, such as IntelliJ IDEA, Netbeans or Eclipse, which are particularly useful when managing larger collections of Java files.
 
 
-## Setup for Windows
+### Setup for Windows
 
 To install Java on Windows:
 
@@ -58,7 +58,7 @@ To install Java on Windows:
 5. At last, open Command Prompt (cmd.exe) and type java -version to see if Java is running on your machine
 
 
-## Java Quickstart
+### Java Quickstart
 
 In Java, every application begins with a class name, and that class must match the filename.
 
@@ -89,3 +89,35 @@ The output should read:
 Hello World !
 
 
+### Java Syntax
+
+Every line of code that runs in Java must be inside a class. In our example, we named the class Main. A class should always start with an uppercase first letter.
+
+Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.
+
+The name of the java file must match the class name. When saving the file, save it using the class name and add ".java" to the end of the filename. 
+
+### The main Method
+
+The main() method is required and you will see it in every Java program:
+
+* public static void main(String[] args)
+
+Any code inside the **main()** method will be executed. Don't worry about the keywords before and after main.
+
+Java program has a **class** name which must match the filename, and that every program must contain the **main()** method.
+
+
+### System.out.println()
+
+Inside the **main()** method, we can use the **println()** method to print a line of text to the screen:
+
+public static void main(String[] args){
+System.out.println("Hello World");
+}
+
+**Note:** The curly braces {} marks the beginning and the end of a block of code.
+
+System is a built-in Java class that contains useful members, such as out, which is short for "output". The println() method, short for "print line", is used to print a value to the screen (or a file).
+
+The each code statement must end with a semicolon (;).
