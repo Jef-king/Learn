@@ -121,3 +121,59 @@ System.out.println("Hello World");
 System is a built-in Java class that contains useful members, such as out, which is short for "output". The println() method, short for "print line", is used to print a value to the screen (or a file).
 
 The each code statement must end with a semicolon (;).
+
+
+### Java Output / Print
+
+You can add as many println() methods as you want. Note that it will add a new line for each method:
+
+Example
+
+System.out.println("Hello World !");
+System.out.println("I am learning Java.");
+System.out.println("It is awesome!");
+
+When you are working with text, it must be wrapped inside double quotations marks "".
+
+There is also a print() method, which is similar to println().
+
+The only difference is that it it does not insert a new line at the end of the output:
+
+Example
+
+System.out.println("Hello World !");
+System.out.print("I will print on the same line.");
+
+You can also use the println() method to print numbers.
+
+Example
+
+For using number we don't put numbers inside double quotes:
+System.out.println(5); //Output is 5
+System.out.println(5+6); //Output is 11
+
+You can also perform mathematical calculations inside the println() method:
+System.out.println("5+6"); //Output is 5+6
+
+
+### Java Comments
+
+Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+
+Single-line comments start with two forward slashes (//).
+Any text between // and the end of the line is ignored by Java (will not be executed).
+
+Example 
+
+// This is a comment
+
+Multi-line comments starts with a /* and ends with */.
+Any text between /* and */ will be ignored by Java.
+
+Example
+
+/* The this returned is ignored */
+
+
+### Java Variables
+
