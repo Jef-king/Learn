@@ -4,7 +4,7 @@
 
 ### Data structures are essential for the following reasons:
 
-* *Efficient Data Management :* They enable efficient storage and retrival of data, reducing processing time and improving performance.
+> *Efficient Data Management :* They enable efficient storage and retrival of data, reducing processing time and improving performance.
 * *Data Organization :* They organize data in a logical manner, making it easier to understand and access.
 * *Data Abstraction :* They hide the implementation details of data storage, allowing programmers to focus on the logical aspects of data manipulation.
 * *Reusability :* Common data structures can be reused in multiple applications, saving time and effort in development.
