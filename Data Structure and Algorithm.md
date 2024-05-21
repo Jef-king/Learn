@@ -16,3 +16,20 @@
 
 * *Linear Data Structures :* These structures store data in a sequential order this allowing for easy *insertion* and *deletion* operations. Examples include trees, graphs and hash tables.
 * *Non-Linear Data Structures :* These structures store data in a hierarchical or inter
+
+### Types of Data Structures:
+
+> Basically, data structures are divided into two categories :
+
+#### Linear Data Structures :
+
+* **Array :** A collection of elements of the same type stored in contiguous memory locations.
+*  **Linked List :** A collection of elements linked together by pointers, allowing for dynamic insertion and deletion.
+*  **Que :** A First-In-First-Out (FIFO) structure where elements are added at the end and removed from the beginning.
+*  **Stack :** A Last-In-First-Out (LIFO) structure where elements and removed from the top.
+
+#### Non-Linear Data Structures :
+
+* **Tree :** A hierarchical structure where each node can have multiple child nodes.
+* **Graph :** A collection of nodes connected by edges, representing relationships between data elements.
+* **Hash Table :** A data structure that uses a hash function to map keys to vlaues, allowing for fast lookup and insertion.
