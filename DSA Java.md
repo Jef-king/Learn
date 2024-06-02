@@ -42,9 +42,9 @@ public class Main {
     }
 }
 ```
-
 ## Binary Search *O(log n)*
 
+### Binary Search with Loop
 ```
 import java.util.*;
 
@@ -78,6 +78,45 @@ public class Main {
             }
             else if(arr[mid] > k) {
                 right=mid-1;
+            }
+        }
+        return -1;
+    }
+}
+```
+
+### Binary Search with Recursion
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter the array length");
+        int n=in.nextInt();
+        int arr[]=new int[n];
+        System.out.println("Enter the array elements");
+        for(int i=0; i<n; i++) {
+            arr[i]=in.nextInt();
+        }
+        System.out.println("Enter the number to find");
+        int k=in.nextInt();
+        in.close();
+        int result=binarySearch(arr, k, 0, n-1);
+        System.out.println((result !=-1)?"Element is found at Index : " +result : "Element not found");
+    }
+
+    static int binarySearch(int arr[], int k, int left, int right) {
+        if(left<=right) {
+            int mid=(left+right)/2;
+            if(arr[mid]==k) {
+                return mid;
+            }
+            else if(arr[mid] < k) {
+                return binarySearch(arr, k, mid+1, right);
+            }
+            else if(arr[mid] > k) {
+                return binarySearch(arr, k, left, mid-1);
             }
         }
         return -1;
