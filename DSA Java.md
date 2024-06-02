@@ -43,7 +43,7 @@ public class Main {
 }
 ```
 
-## Binary Search *
+## Binary Search *O(log n)*
 
 ```
 import java.util.*;
