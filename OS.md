@@ -13,4 +13,5 @@
 * System architecture, in the context of operating systems, refers to the fundamental design and structure of a computer system.
 * It encompasses the hardware components, such as the central processing unit (CPU), memory, storage devices, input/output interfaces, and the relationships between them.
 * System architecture also includes concepts like multi-core processors, buses, memory hierarchies, and peripheral devices. These components interact to execute instructions and process data.
-* 
+* The system architecure doesn't include the OS because it operates at a higher, more abstract level and interacts with multiple system components. It manages resources, controls hardware, and provides a platform for running software applications.
+  The operating system, represents as a software layer, sits on top the hardware components
