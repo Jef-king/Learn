@@ -81,3 +81,6 @@ A programming language can be called high-level when its architecture is user-fr
 High-Level programming languages are user-friendly for wirting codes as they are not closely related to machine or assembly language in terms of their architecture.
 
 
+| | Low Level Programming Language | High Level Programming Language |
+| :- | :- | :- |
+| Machine Friendly | Yes, low level languages are machine friendly. | High-level languages, are not so machine-friendly. |
