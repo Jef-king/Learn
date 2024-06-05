@@ -84,3 +84,8 @@ High-Level programming languages are user-friendly for wirting codes as they are
 | | Low Level Programming Language | High Level Programming Language |
 | :- | :- | :- |
 | Machine Friendly | Yes, low level languages are machine friendly. | High-level languages, are not so machine-friendly. |
+| Memory Efficiency | High memory efficient in terms of memory usage but difficult to understand without an ssembler. | They are less memory efficient but is easy for a human to understand. |
+| Usage | Not widely used anymore as they are not human friendly. | Widely used as it is easier to write, understand, maintain, and debug codes in these languages. |
+| Ease of Usage | Multiple lines of codes has to be written to accomplish a simple task. | Can accomplish a substantial task with a simple statement. |
+| Example | Machine code and assembly languages. | Most popular programming languages in use today are considered high-level languages. Example include : Java, JavaScript, Pyton. |
+
