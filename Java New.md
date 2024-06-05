@@ -171,3 +171,11 @@ The JDK comprises essential tools for developing and testing programs in the Jav
            is a crucial component found within bothe the JDK and JRE. IT is responsible for executing Java programs line by line, making it an interpreter.
            When you run a Java program using either the JRE or JDK, it is processed by the JVM. The JVM acts as a runtime environment, interpreting and executing the Java code.
            
+#### Components of JDK
+* Deployment technologies : These include deployment, Java Web Start, and Java Plug-in.
+* User interface toolkits : This encompasses Abstract Window Toolkit (AWT), Swing, Java 2D, Accessibility, Image I/O, Print Service, Sound, drag and drop (DnD), and input mehtods.
+* Integration libraires : This comprises Interface Definition Language (IDL), Java Database Connectivity (JDBC), Java Naming and Directory Interface (JNDI), Remote Method Invocation (RMI), Remote Method Invocation Over Internet Inter-ORB Protocaol (RMI-IIOP(, and scripting.
+* Other base libraries : These consist of interantional support, input/output (I/O), extension mechanism, Beans, Java Management Extensions (JMX), Java Ntive Interface (JNI), Math, Networking, Override Mechanism, Security, Serialization, and Java for XML Processing (XML JAXP).
+* Lang and util base libraries : This includes lang and util, management, versioning, zip, instrument, reflection, Collections, Concurrency Utilities, Java Archive (JAR), Logging, Preferences API, Ref Objects, and Regular Expressions.
+* Java Virtual Machine (JVM) : This encompasses Java HotSpot and Server Virtual Machines.
+  
