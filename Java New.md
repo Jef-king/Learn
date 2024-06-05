@@ -89,3 +89,56 @@ High-Level programming languages are user-friendly for wirting codes as they are
 | Ease of Usage | Multiple lines of codes has to be written to accomplish a simple task. | Can accomplish a substantial task with a simple statement. |
 | Example | Machine code and assembly languages. | Most popular programming languages in use today are considered high-level languages. Example include : Java, JavaScript, Pyton. |
 
+Low-level and high-level, programming languages are further classified into five categories based on their features.  Some languages may fall under more than one category.
+
+1. Procedural Programming Languages :
+   A procedural languages follows a sequence of statements or commands to achieve the desired output. Each series of steps is referred to as a porcedure, and a program written in such languages will contain one or more procedures.
+   Comman Examples include :
+   * C and C++
+   * Java
+   * Pascal
+   * Basic
+  
+2. Functional Programming Languages :
+   Functional languages prioritize the output of mathematical functions and evaluations, instead of focusing on the execution. of statements. Each function, which is a reusable module of code, performs a specific task and returns a result. The result obtained from a function depends ont eh input data provided.
+   Some popular funcitonal programming languages include :
+   * Scala
+   * Erlang
+   * Haskell
+   * Elixir
+   * F#
+
+3. Scripting Languages :
+   Scripting languages enable programmers to automate repetitive tasks, handle dynamic web content, and support processes in larger applicaitons.
+   Some common scripting languages include :
+   * PHP
+   * Ruby
+   * Python
+   * Bash
+   * Perl
+   * Node.js
+
+4. Logic Programming Languages :
+   Unlike traditional programming languages that instruct computers on what to do, a logic programming language expresses a series of facts and rules to guide the computer in making decisions.
+   Some examples of logic languages include :
+   * Prolog
+   * Absys
+   * Datalong
+   * Alma-O
+
+5. Object Oriented Programming Languages :
+   This type of language treats a program as a collection of objects that consist of data and program elements, referred to as sttributes and methods. Objects can be reused within the same progrm or in other programs, making it  a favored language type for complex programs due to the ease of code reuse and scalability.
+   Some common object-oriented programming (OOP) languages include :
+   * Java
+   * Python
+   * PHP
+   * C++
+   * Ruby
+
+   
+
+*1 Object Oriented Programming (OOP) Language
+
+* Object-Oriented Programming (OOP) is like building with LEGO blocks. Each object that has its own unique features (attributes) and things it can do (methods).
+* Eg : A car object can have attributes like color and speed, and methods like start() and stop(). OOP allows objects to inherit traits from other objects, like how a sports car inherits traits from a car.
+* This makes coding more flexible and 
