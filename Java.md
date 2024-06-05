@@ -68,12 +68,13 @@ The file should contain a "Hello World" message, which is written with the follo
 
 Main.java
 
-
+```
 public class Main{
   public static void main(String[] args){
     System.out.println("Hello World !");
   }
 }
+```
 
 
 Save the code in Notepad as "Main.java". Open Command Prompt (cmd.exe), navigate to the directory where you saved your file, and type "javac Main.java":
