@@ -126,4 +126,72 @@ public class Main {
 ## Sort
 ### Bubble Sort
 ```
+import java.util.*;
 
+public class Main {
+    public static void main(String[] args) {
+      Scanner in=new Scanner(System.in);
+        System.out.println("Enter the array length");
+        int n=in.nextInt();
+        int arr[]=new int[n];
+        System.out.println("Enter the array elements");
+        for(int i=0; i<n; i++) {
+            arr[i]=in.nextInt();
+        }
+        in.close();
+        int result[]=bubbleSort(arr, n);
+        for(int i=0; i<n; i++) {
+            System.out.print(result[i]+" ");
+        }
+    }
+  static int[] bubbleSort(int []arr,int n){
+    for(int i=0;i<n;i++){
+      for(int j=0;j<n;j++){
+        if(arr[i]<arr[j]){
+          int temp=arr[i];
+          arr[i]=arr[j];
+          arr[j]=temp;
+        }
+      }
+    }
+    return arr;
+  }
+}
+```
+### Selection Sort
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner in=new Scanner(System.in);
+        System.out.println("Enter the array length");
+        int n=in.nextInt();
+        int arr[]=new int[n];
+        System.out.println("Enter the array elements");
+        for(int i=0; i<n; i++) {
+            arr[i]=in.nextInt();
+        }
+        in.close();
+        int result[]=selectionSort(arr, n);
+        for(int i=0; i<n; i++) {
+            System.out.print(result[i]+" ");
+        }
+    }
+  static int[] selectionSort(int []arr,int n){
+    int step=0;
+    for(int i=0;i<n-1;i++){
+      for(int j=i+1;j<n;j++){
+        if(arr[i]<arr[j]){
+          int temp=arr[i];
+          arr[i]=arr[j];
+          arr[j]=temp;
+        }
+        step++;
+      }
+    }
+    System.out.println(step);
+    return arr;
+  }
+}
+```
