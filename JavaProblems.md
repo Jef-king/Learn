@@ -20,6 +20,10 @@ The first input line contains integer n , the length of array a.
 
 The following line contains n space separated integers representing a[i] which is the amount of money in each house.
 
+*Output Format*
+
+Return one integer - the maximum amount Robin can loot.
+
 ```
 import java.util.*;
 
@@ -53,6 +57,3 @@ public class Main {
 }
 ```
 
-*Output Format*
-
-Return one integer - the maximum amount Robin can loot.
