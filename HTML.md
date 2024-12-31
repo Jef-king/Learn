@@ -1,11 +1,11 @@
 # HTML
 
-> HTML is the standard markup language for Web pages.
-> With HTML you can create your own Websites.
-> HTML is easy to learn - You will enjoy it!
-> HTML describes the structure of the Web page
-> HTML consists of a series of elements
-> HTML elements tell the browser how to display the content
+> HTML is the standard markup language for Web pages  
+> With HTML you can create your own Websites  
+> HTML is easy to learn - You will enjoy it!  
+> HTML describes the structure of the Web page  
+> HTML consists of a series of elements  
+> HTML elements tell the browser how to display the content  
 > HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
 
 ## A Simple HTML Document
