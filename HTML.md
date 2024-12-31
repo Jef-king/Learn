@@ -33,3 +33,22 @@
 * The `<h1>` element defines a large heading
 * The `<p>` element defines a paragraph
 
+## What is an HTML element?  
+
+An HTML element is defined by a start tag, some content, and an end tag:  
+```
+<tagname>Content goes here....</tagname>
+```
+The HTML element is everything from the start tag to the end tag:  
+`<h1>My First Heading</h1>`
+`<p>My first paragraph</p>`  
+
+Start tag | Element content | End tag
+--- | --- | ---
+`<h1>` | My First Heading | `</h1>`
+`<p>` | My first paragraph | `</p>`
+`<br>` | none | none  
+
+Note: 
+* Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+* The content inside the `<body>` section will be displayed in a browser. The content inside the  `<title>` element will be shown in the browser's title bar or in the page's tab.
